@@ -1,0 +1,87 @@
+$black: #221f1f;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    cursor: url('../img_cursor/black_cursor.cur'), auto;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 247);
+    font-family: 'Ubuntu', sans-serif;
+    color: $black;
+    cursor: url('../img_cursor/black_cursor.cur'), default;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+    cursor: url('../img_cursor/black_cursor.cur'), pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.title {
+    font-size: 2.7rem;
+    margin: 0 0 100px 0; 
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container .c_name {
+    text-align: left;
+}
+
+.btn {
+    position: relative;
+    font-size: 20px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: $black;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.btn-center {
+
+    &::after {
+        transform: scale(0, 1);
+    }
+
+    &:hover {
+
+        &::after {
+            transform: scale(1, 1);
+            transition: transform 0.3s ease;
+        }
+
+    }
+
+}
+
+.copy {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+

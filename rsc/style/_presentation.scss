@@ -1,0 +1,26 @@
+.presentation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        p {
+            width: 600px;
+            height: auto;
+            font-size: 20px;
+        }
+    }
+}

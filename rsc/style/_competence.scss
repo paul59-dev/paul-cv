@@ -1,0 +1,140 @@
+.competence {
+    width: 100%;
+    margin: 150px 0;
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .col {
+            width: 50%;
+            margin: 20px 10%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .progress {
+                margin: 0 0 50px 0;
+                padding: 2px;
+                width: 100%;
+                max-width: 500px;
+                border: 3px solid black;
+                height: 20px;
+
+                .frontend {
+                    height: 100%;
+                    width: 90%;
+                    background-color: #0b3d5e;
+                    animation: front-fill-bar 3s ease-in-out;
+                }
+    
+                .backend {
+                    height: 100%;
+                    width: 40%;
+                    background-color: #0b3d5e;
+                    animation: back-fill-bar 3s ease-in-out;
+                } 
+    
+                .software {
+                    height: 100%;
+                    width: 80%;
+                    background-color: #0b3d5e;
+                    animation: soft-fill-bar 3s ease-in-out;
+                }
+            } 
+        }
+
+        .col {
+            width: 50%;
+            margin: 20px 10%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .progress {
+                margin: 0 0 50px 0;
+                padding: 2px;
+                width: 100%;
+                max-width: 500px;
+                border: 3px solid black;
+                height: 20px;
+
+                .frame_fp {
+                    height: 100%;
+                    width: 60%;
+                    background-color: #0b3d5e;
+                    animation: frame-front-fill-bar 3s ease-in-out;
+                }
+    
+                .frame_bp {
+                    height: 100%;
+                    width: 40%;
+                    background-color: #0b3d5e;
+                    animation: frame-back-fill-bar 3s ease-in-out;
+                }
+
+                .cmd {
+                    height: 100%;
+                    width: 30%;
+                    background-color: #0b3d5e;
+                    animation: cmd-fill-bar 3s ease-in-out;
+                }
+            }
+        }
+    }
+
+    @keyframes front-fill-bar {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 90%;
+        }
+    }
+
+    @keyframes back-fill-bar {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 40%;
+        }
+    }
+
+    @keyframes soft-fill-bar {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 80%;
+        }
+    }
+
+    @keyframes frame-front-fill-bar {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 60%;
+        }
+    }
+
+    @keyframes frame-back-fill-bar {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 40%;
+        }
+    }
+
+    @keyframes cmd-fill-bar {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 30%;
+        }
+    }
+}
