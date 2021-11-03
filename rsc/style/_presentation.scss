@@ -10,17 +10,26 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        @media (max-width: 940px) {
+            flex-direction: column;
+        }
 
         img {
             width: 300px;
             height: auto;
             border-radius: 50%;
+            @media (max-width: 940px) {
+                width: 200px;
+            }
         }
 
         p {
             width: 600px;
             height: auto;
             font-size: 20px;
+            @media (max-width: 940px) {
+                text-align: center;
+            }
         }
     }
 }
