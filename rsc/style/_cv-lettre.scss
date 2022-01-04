@@ -1,0 +1,15 @@
+.cv_lettre {
+
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            margin: 0 50px 100px 0;
+            color: rgb(117, 117, 238); 
+            font-size: 40px;
+        }
+    }
+}
