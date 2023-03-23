@@ -31,7 +31,7 @@
     
                 .backend {
                     height: 100%;
-                    width: 40%;
+                    width: 50%;
                     background-color: #0b3d5e;
                     animation: back-fill-bar 3s ease-in-out;
                 } 
@@ -69,14 +69,14 @@
     
                 .frame_bp {
                     height: 100%;
-                    width: 40%;
+                    width: 50%;
                     background-color: #0b3d5e;
                     animation: frame-back-fill-bar 3s ease-in-out;
                 }
 
                 .cmd {
                     height: 100%;
-                    width: 30%;
+                    width: 90%;
                     background-color: #0b3d5e;
                     animation: cmd-fill-bar 3s ease-in-out;
                 }
@@ -98,7 +98,7 @@
             width: 0%;
         }
         to {
-            width: 40%;
+            width: 50%;
         }
     }
 
@@ -125,7 +125,7 @@
             width: 0%;
         }
         to {
-            width: 40%;
+            width: 50%;
         }
     }
 
@@ -134,7 +134,7 @@
             width: 0%;
         }
         to {
-            width: 30%;
+            width: 90%;
         }
     }
 }

@@ -143,19 +143,19 @@ img_ml.addEventListener('mouseout', () => {
 
 });
 
-function download(filename, textInput) {
+// function download(filename, textInput) {
 
-  const element = document.createElement('a');
-  element.setAttribute('href','data:text/plain;charset=utf-8, ' + encodeURIComponent(textInput));
-  element.setAttribute('download', filename);
-  document.body.appendChild(element);
-  element.click();
+//   const element = document.createElement('a');
+//   element.setAttribute('href','data:text/plain;charset=utf-8, ' + encodeURIComponent(textInput));
+//   element.setAttribute('download', filename);
+//   document.body.appendChild(element);
+//   element.click();
 
-}
+// }
 
-const cv = document.getElementById('cv');
+// const cv = document.getElementById('cv');
 
-cv.addEventListener("click", function () {
-  const filename = "../download/CV.pdf";
-  download(filename);
-}, false);
+// cv.addEventListener("click", function () {
+//   const filename = "../download/cv-Paul_Allebee.pdf";
+//   download(filename);
+// }, false);
